@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.gridStyle {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+@media (max-width: 750px) {
+  .gridStyle {
+    display: block;
+  }
+}
